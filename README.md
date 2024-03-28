@@ -37,7 +37,7 @@ SELECT * FROM alunos;
 
 ### Para listar as músicas pelo 'id', executamos o código:
 ```sql
--- Ordem decrescente
+-- Ordem crescente
 SELECT * FROM alunos ORDER BY id;
 
 -- Ordem decrescente
@@ -46,7 +46,7 @@ SELECT * FROM alunos ORDER BY id DESC;
 
 ### Para listar as músicas pelo 'nome', executamos o código:
 ```sql
--- Ordem decrescente
+-- Ordem crescente
 SELECT * FROM alunos ORDER BY nome;
 
 -- Ordem decrescente
@@ -55,7 +55,7 @@ SELECT * FROM alunos ORDER BY nome DESC;
 
 ### Para listar as músicas pelo 'estado', executamos o código:
 ```sql
--- Ordem decrescente
+-- Ordem crescente
 SELECT * FROM alunos ORDER BY estado;
 
 -- Ordem decrescente
@@ -64,10 +64,9 @@ SELECT * FROM alunos ORDER BY estado DESC;
 
 ### Para listar as músicas pela 'idade', executamos o código:
 ```sql
--- Ordem decrescente
+-- Ordem crescente
 SELECT * FROM alunos ORDER BY idade;
 
 -- Ordem decrescente
 SELECT * FROM alunos ORDER BY idade DESC;
 ```
-
